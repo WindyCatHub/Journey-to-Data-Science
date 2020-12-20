@@ -2,7 +2,7 @@
 layout: post
 title:  "Covid-19 data cleaning and visualisation"
 date:   2020-12-16
-image:  download%20(1).png
+image:  RunningTotal.png
 tags:   Covid-19 Visualisation
 ---
 
