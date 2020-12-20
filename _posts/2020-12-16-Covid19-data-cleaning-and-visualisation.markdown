@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Covid-19 data cleaning and visualisation"
+title:  "Lithuanian Covid-19 data cleaning and visualisation"
 date:   2020-12-16
 image:  pic1.png
 tags:   Covid-19 Visualisation
