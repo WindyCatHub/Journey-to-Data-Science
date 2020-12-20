@@ -33,13 +33,13 @@ To visualize current situation in Lithuania I calculated running sum for each ty
 
 Even though the old government said that everything is under control we can clearly see that from the start of September until new government started its work on 2020-12-11 (Friday), numbers of new cases were growing too fast to call it controlable. We will see if new actions taken by the new government would have better success.
 
-![Covid -19 confirmed and completed (death or recovery) cases in Lithuania](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/image/download%20(1).png?raw=true)
+![Covid -19 confirmed and completed (death or recovery) cases in Lithuania](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/download%20(1).png)
 
 I am starting to believe that there are two groups of pleople in the world. One, who believe that Earth is round and others, who believe that Earth is flat. People who believe that Earth is flat deny science. When I hear people say "Christmas presents for the family and friends are more important than scientists' request to stay at home" - I automatically put them to the Flat Earth group...
 
 I marked the period of 2 days before the start of tightened quarantine in gray and a 5 days period in red. (it takes on average 5 days to feel symptoms after contact with person infected with Covid-19. 
 
-![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/image/download.png?raw=true)
+![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/download.png)
 
 Google provides mobility data for all over the world. To load full .csv file requires a lot of memory resources. So I loaded file by chunks and filtered data I needed:
 
@@ -58,6 +58,6 @@ for chunk in pd.read_csv(mobility_csv_file,chunksize=c_size, parse_dates=['date'
 ```
 These Community Mobility Reports aim to provide data of mobility changes in response to policies aimed at combating COVID-19. I am really interested to see how will it look on the period that I marked red. Hopefully data will be sensitive enough to catch the situation for the period of 2 days before the start of tightened quarantine.
 
-![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/image/download%20(2).png?raw=true)
+![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/download%20(2).png)
 
 I will update graphs bi-weekly or you can find python code in my github repository.
