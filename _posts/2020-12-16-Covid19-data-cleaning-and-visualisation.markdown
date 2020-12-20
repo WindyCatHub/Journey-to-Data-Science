@@ -33,7 +33,7 @@ To visualize current situation in Lithuania I calculated running sum for each ty
 
 Even though the old government said that everything is under control we can clearly see that from the start of September until new government started its work on 2020-12-11 (Friday), numbers of new cases were growing too fast to call it controlable. We will see if new actions taken by the new government would have better success.
 
-![Covid -19 confirmed and completed (death or recovery) cases in Lithuania](RuningTotal.png)
+![Covid -19 confirmed and completed (death or recovery) cases in Lithuania](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/RuningTotal.png)
 
 I am starting to believe that there are two groups of pleople in the world. One, who believe that Earth is round and others, who believe that Earth is flat. People who believe that Earth is flat deny science. When I hear people say "Christmas presents for the family and friends are more important than scientists' request to stay at home" - I automatically put them to the Flat Earth group...
 
