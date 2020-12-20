@@ -39,7 +39,7 @@ I am starting to believe that there are two groups of pleople in the world. One,
 
 I marked the period of 2 days before the start of tightened quarantine in gray and a 5 days period in red. (it takes on average 5 days to feel symptoms after contact with person infected with Covid-19. 
 
-![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/ByDay.png)
+![Covid -19 confirmed and completed (death or recovery) cases in Lithuania]({{"/images/ByDay.png" | absolute_url}})
 
 Google provides mobility data for all over the world. To load full .csv file requires a lot of memory resources. So I loaded file by chunks and filtered data I needed:
 
@@ -58,6 +58,6 @@ for chunk in pd.read_csv(mobility_csv_file,chunksize=c_size, parse_dates=['date'
 ```
 These Community Mobility Reports aim to provide data of mobility changes in response to policies aimed at combating COVID-19. I am really interested to see how will it look on the period that I marked red. Hopefully data will be sensitive enough to catch the situation for the period of 2 days before the start of tightened quarantine.
 
-![](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/images/mobility.png)
+![Covid -19 confirmed and completed (death or recovery) cases in Lithuania]({{"/images/mobility.png" | absolute_url}})
 
 I will update graphs bi-weekly or you can find python code in my github repository.
