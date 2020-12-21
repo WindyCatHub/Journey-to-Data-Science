@@ -45,6 +45,6 @@ Correlation matrix is a table showing correlation coefficients between two varia
 From the correlation matrix we see that there is no strong liner relationship between age range and other variables. However, it does not mean that there is no relationship.
 I still had a feeling that age should have a relationship with the variable showing if the person was/is treated in intensive care. The boxplot below shows that older people are actually more likely to be treated in intensive care than younger ones. 
 
-![]({{"/images/age and rean box.png" | absolute_url}})
+![]({{"/images/age and rean boxplot.png" | absolute_url}})
 
 For now, this is it. In other post I will go to deeper.
