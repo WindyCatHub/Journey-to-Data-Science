@@ -9,3 +9,7 @@ However, categorical data is not very useful for futher analysis. So I converted
 
 With this modification I wanted to see how changes people who get sick age by the time. If I would drow scatter plot for this data ir would be grouped and ploted like dots in line as I have just one number for ten years interval. 
 So I added random noise to my scatter plot to have more smooth plot.
+
+![]({{"/images/age scatter.png" | absolute_url}})
+
+
