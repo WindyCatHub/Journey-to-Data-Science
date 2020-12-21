@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Age distribution of people infected by Covid-19 in Lithuania"
+date:   2020-12-21
+image:  pic2.png
+tags:   Covid-19 age distribution
+---
+
 In the first part of the year we were told that old people get infected by Covid-19. Now we are told that young people is the one who spreads infection around.
 One of the best thing in this digital age is that you can check situation by yourself with open data and open source tools.
 
