@@ -15,7 +15,7 @@ I am using the same data source from Lithuanian Open Data Portal to investigate 
 
 However, gapped data is not very useful for futher analysis. So I converted each range to a number, choosing the middle value. For instance, in a range [0;9] the middle value would be 4,5.
 
-With this modification I wanted to see if there is any change in ages of people who get sick over time. If I would draw a scatter plot for this data ir would be grouped and ploted like dots in a line as I have just one number for each 10-year interval. 
+With this modification I wanted to see if there is any change in ages of people who get sick over time. If I would draw a scatter plot for this data it would be grouped and ploted like dots in a line as I have just one number for each 10-year interval. 
 Hence I decided to add some random noise to my scatter plot to have a more smooth plot.
 
 ![]({{"/images/age scatter.png" | absolute_url}})
@@ -27,7 +27,7 @@ From both plots above, we can guess that there are some outliers in the data. Th
 ![]({{"/images/age boxplot.png" | absolute_url}})
 
 Now, with my cleaned new data set without missing data and outliers, I can plot Cummulative distribution function. For this I have used Python package `<empiricaldist>`.
-It came as no surprise that infected people age is distributed very close to Normal distribution as a lot of things in our life can be described by it. This can quite clearly be seen from a plotted random Normal distribution line with the same mean and standard deviation. The mean age of the dataset is 45.426437 and std is 18.531993. That basically means that peaple of age of 45 (in range 40 to 49) +/- 18 years comprise the majority of all infected people.
+It came as no surprise that infected people age is distributed very close to Normal distribution as a lot of things in our life can be described by it. This can quite clearly be seen from a plotted random Normal distribution line with the same mean and standard deviation (std). The mean age of the dataset is 45.426437 and std is 18.531993. That basically means that peaple of age of 45 (in range 40 to 49) +/- 18 years comprise the majority of all infected people.
 
 ![]({{"/images/age and sample dist.png" | absolute_url}})
 
@@ -47,4 +47,4 @@ I still had a feeling that age should have a relationship with the variable show
 
 ![]({{"/images/age and rean box.png" | absolute_url}})
 
-For now, this is it. In other post I will go to deeper.
+For now, this is it. In other post I will go deeper.
