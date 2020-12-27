@@ -2,7 +2,7 @@
 layout: post
 title:  "Real issue with Covid-19"
 date:   2020-12-27
-image:  main.png
+image:  StayHome.jpg
 tags:   Covid-19
 ---
 
