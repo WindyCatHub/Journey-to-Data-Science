@@ -26,8 +26,15 @@ From both plots above, we can guess that there are some outliers in the data. Th
 
 ![]({{"/images/age boxplot.png" | absolute_url}})
 
-Now, with my cleaned new data set without missing data and outliers, I can plot Cumulative distribution function. For this I have used Python package `<empiricaldist>`.
-It came as no surprise that infected people age is distributed very close to Normal distribution as a lot of things in our life can be described by it. This can quite clearly be seen from a plotted random Normal distribution line with the same mean and standard deviation. The mean age of the dataset is 45.426437 and std is 18.531993. That basically means that people of age of 45 (in range 40 to 49) +/- 18 years comprise the majority of all infected people.
+Now, with my cleaned new data set without missing data and outliers, I can plot the Cumulative distribution function. For this, I have used Python package `<empiricaldist>`.
+It came as no surprise that infected people age is distributed very close to Normal distribution as a lot of things in our life can be described by it. This can quite clearly be seen from a plotted random Normal distribution line with the same mean and standard deviation. The mean age of the dataset is 45.426437 and std is 18.531993. It means that people of the age of 45 (in range 40 to 49) +/- 18 years comprise the majority of all infected people.
+
+Ok, we all see that gap between two distribution lines. All the results should be summarized like "It could be normal distribution". 
+ There are many ways to test if the dataset is distributed by the normal distribution. I have chosen D'Agostino and Pearson's Test. The code is in my GitHub profile.  The result of the test is:
+``` 
+Statistics=1965.933, p=0.000
+Sample does not look Gaussian (reject H0)
+```
 
 ![]({{"/images/age and sample dist.png" | absolute_url}})
 
