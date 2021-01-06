@@ -36,4 +36,4 @@ So, the other question - what is the Covid19 impact on other deaths. Pearson cor
 
 This means that for every 100 Covid19 cases there are 1,3 additional deaths from other reasons than Covid19. So if on some week we had 17 000 cases we might expect 221 deaths from other illnesses (after some time) on top of the expected average (700) without the Covid situation. Additionally, we have 2% Covid19 mortality (340). So in total, we get more than 1200 deaths per week...
 
-So please, stay at home. Even if you think that Covid19 is the same as Flu - you might save someone's life. 
+So please, stay at home. Even if you think that Covid19 is the same as Flu - you might save someone's life.
