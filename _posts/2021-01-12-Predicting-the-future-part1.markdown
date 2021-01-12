@@ -65,8 +65,6 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 ```
 
-The result is not so good.
-
 ```
 [[  150   260]
  [  102 18382]]
@@ -78,7 +76,7 @@ The result is not so good.
 
     accuracy                           0.98     18894
 ```
-The idea of this model is to predict who will need more attention during the sickness. My model predicts that 260 people that died will recover. This is Error Type I. In this case, it is more important than Type II (102 people recovered, but model predicted that they would die).
+The result is not so good. The idea of this model is to predict who will need more attention during the sickness. My model predicts that 260 people that died will recover. This is Error Type I. In this case, it is more important than Type II (102 people recovered, but model predicted that they would die).
 
 # LogisticRegression
 
