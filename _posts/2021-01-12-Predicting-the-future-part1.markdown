@@ -57,7 +57,8 @@ print(knn_cv.best_score_)
 
 My model accuracy is 0.98048 with k = 9.  It seems great for the first time. However, in a previous post, I wrote that the mortality rate from Covid19 is 2%. So if my model would label everything as recovered, then accuracy would be 0.98 as well. So this is not the best way to evaluate the model. At the moment my choice is to use the confusion matrix as the real performance evaluator.
 
-```from sklearn.metrics import classification_report
+```
+from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 print(confusion_matrix(y_test, y_pred))
