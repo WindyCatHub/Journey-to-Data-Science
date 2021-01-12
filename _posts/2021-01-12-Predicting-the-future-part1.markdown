@@ -41,14 +41,10 @@ From the plot, it is clear that k=9 gives the best performance.
 Nevertheless, I use GridSearchCV to find the best parameter for the K-NN model. The advantage of this method is that it trains data using cross-validation. I use 5 folds.
 ```
 from sklearn.model_selection import GridSearchCV
-
 param_grid = {'n_neighbors': np.arange(1, 10)}
-
 knn = KNeighborsClassifier()
 knn_cv = GridSearchCV(knn, param_grid, cv=5)
-
 knn_cv.fit(X_train, y_train)
-
 y_pred = knn_cv.predict(X_test)
 
 print(knn_cv.best_params_)
@@ -92,13 +88,9 @@ from sklearn.model_selection import GridSearchCV
 
 c_space = np.logspace(-5, 8, 15)
 param_grid = {'C': c_space, 'penalty': ['l1', 'l2']}
-
 logreg = LogisticRegression(solver = 'saga', max_iter=400)
-
 logreg_cv = GridSearchCV(logreg, param_grid, cv=5)
-
 logreg_cv.fit(X_train, y_train)
-
 y_pred = logreg_cv.predict(X_test)
 
 print("Tuned Logistic Regression Parameter: {}".format(logreg_cv.best_params_))
@@ -123,4 +115,4 @@ With those parameters, the model gets a bit better than in the KNN case, but sti
            1       0.99      0.99      0.99     18484
 ```
 
-To be continued in the next post.
+## To be continued in the next post.
