@@ -30,7 +30,7 @@ The second field with missing data is "Cabin". In fact, the majority of it is mi
 
 ![]({{ site.baseurl }}/images/cabin_by_class.png)
 
-I decided to remove this column from the data. You can find how I filled the other columns with missing values in my Github profile. https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/Jupyter_Notebook__Titanic/Titanic%20(1).ipynb
+I decided to remove this column from the data. You can find how I filled the other columns with missing values in my Github profile [link to notebook](https://github.com/WindyCatHub/Journey-to-Data-Science/blob/main/Jupyter_Notebook__Titanic/Titanic%20(1).ipynb)
 
 ## Feature Engineering
 
@@ -71,7 +71,7 @@ DTC 0.7988826815642458
 RF  0.8212290502793296
 
 
-Finally, I tried Voting Classifier with three of the models (I excluded the decision tree algorithm). It improved the score by 0.02 with an accuracy of 0.849
+Finally, I tried Voting Classifier with three of the models (I excluded the decision tree algorithm). It improved the score by 0.02 with an accuracy of **0.849**
 However, with unseen data, the model performs not so well. My score now is 0.75837 - this is still an improvement compared to my previous entry.
 
-![]({{ site.baseurl }}/images/kaggel.png)
+![]({{ site.baseurl }}/images/kaggle.png)
