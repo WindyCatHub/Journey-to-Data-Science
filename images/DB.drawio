@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T21:49:49.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_m2QW_DNI38RMpyhEemr" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T15:14:55.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XYfMM_8UW8z15_yYNyBg" version="20.6.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1467" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2420" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,11 +598,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-277" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=21;endArrow=none;endFill=0;" parent="1" source="KG3JMhEqKzMqYPLvNgxc-276" target="KG3JMhEqKzMqYPLvNgxc-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-277" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=21;endArrow=none;endFill=0;" parent="1" source="KG3JMhEqKzMqYPLvNgxc-276" target="KG3JMhEqKzMqYPLvNgxc-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KG3JMhEqKzMqYPLvNgxc-276" value="Customer Name" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="460" width="72.5" height="30" as="geometry" />
+          <mxGeometry x="197.5" y="100" width="72.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG3JMhEqKzMqYPLvNgxc-280" value="Loan" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=18;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="512.5" y="1110" width="180" height="210" as="geometry">
@@ -794,7 +796,7 @@
             <mxPoint x="155" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-342" value="Individuals" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;rotation=0;" parent="1" vertex="1">
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-342" value="Individual" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG3JMhEqKzMqYPLvNgxc-345" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KG3JMhEqKzMqYPLvNgxc-344" edge="1">
@@ -802,7 +804,7 @@
             <mxPoint x="155" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-344" value="Companies" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;rotation=0;" parent="1" vertex="1">
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-344" value="Company" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="181" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG3JMhEqKzMqYPLvNgxc-346" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="KG3JMhEqKzMqYPLvNgxc-347" target="KG3JMhEqKzMqYPLvNgxc-342" edge="1">
@@ -827,7 +829,7 @@
         <mxCell id="KG3JMhEqKzMqYPLvNgxc-351" value="CEO full name" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="304" y="455" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-369" value="Individuals" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=18;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-369" value="Individual" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=18;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="117.5" y="1140" width="220" height="150" as="geometry">
             <mxRectangle x="105" y="920" width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -884,7 +886,7 @@
             <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-385" value="Companies" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=18;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-385" value="Company" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=18;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="1300" width="240" height="150" as="geometry">
             <mxRectangle x="105" y="920" width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -957,8 +959,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG3JMhEqKzMqYPLvNgxc-397" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-760" width="190" height="120" as="geometry" />
+        <mxCell id="KG3JMhEqKzMqYPLvNgxc-397" value="&lt;h1&gt;Report&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Database developers:&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 10%;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;line-height: 120%;&quot;&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Rolandas Gricius&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Dalia Breskuvienė&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 10%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 10%;&quot;&gt;&lt;b&gt;Purpose of Database:&lt;/b&gt; The database is built for payment institution startup - &quot;RobinHood Money&quot;.&lt;/p&gt;&lt;p style=&quot;line-height: 10%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 10%;&quot;&gt;&lt;b&gt;Assumptions:&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 130%;&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 130%;&quot;&gt;&lt;li&gt;Every customer has an account, even if it is using &quot;RobinHood Money&quot; only for a loan.&lt;/li&gt;&lt;li&gt;An account can be used alone or serve one loan. The card can be issued to manage an account. A new account is opened if a customer needs more loans or cards. One card per account is allowed due to anti-money laundering (AML) prevention. For example, when an individual has one account and a few cards: he/she can give a card to an individual living abroad. They both use the same account, which creates AML issues.&lt;/li&gt;&lt;li&gt;As this is a startup, payments and loans are allowed in only one currency (EUR).&lt;/li&gt;&lt;li&gt;Due to simplicity, only internal payments infrastructure is modeled. In the real case scenario, the database would be much more complicated.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Loans can be secured by one or more collateral. One property can be used as collateral for different loans.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-760" width="1090" height="730" as="geometry" />
         </mxCell>
         <mxCell id="WIkanJ5X31cENNnclif9-1" value="Personal code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="530" width="70" height="30" as="geometry" />
@@ -986,6 +988,14 @@
         </mxCell>
         <mxCell id="WIkanJ5X31cENNnclif9-12" value="Credit Limit" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="248" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WIkanJ5X31cENNnclif9-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;endArrow=none;endFill=0;" edge="1" parent="1" source="WIkanJ5X31cENNnclif9-15" target="KG3JMhEqKzMqYPLvNgxc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="122.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIkanJ5X31cENNnclif9-15" value="Customer Code" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="62.5" width="72.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
